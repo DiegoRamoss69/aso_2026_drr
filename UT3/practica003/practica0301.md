@@ -18,3 +18,8 @@
 
 ## 4. Crea un script que determine si un número introducido por el usuario es par o impar. Para realizar este ejercicio puedes utilizar el operador módulo, que es el símbolo %
 
+![alt text](image-6.png)
+![alt text](image-7.png)
+
+## 5. Escribe un script que solicite el nombre de un archivo y luego imprima cuántas líneas tiene ese archivo. Verifica que el archivo exista antes de contar las líneas.
+
