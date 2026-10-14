@@ -48,3 +48,11 @@
 
 ## 9. Escribe un script que cuente cuántas palabras hay en un archivo y las muestre en la terminal.
 
+![alt text](image-19.png)
+![alt text](image-20.png)
+
+## 10. Crea un script que comprima todos los ficheros del directorio Escritorio que está dentro del directorio personal del usuario actual en un fichero llamado backup.DDMM.gz donde DD es el día del mes y MM el mes. Para comprimir puedes utilizar el comando tar de la siguiente manera:
+![alt text](image-21.png)
+
+![alt text](image-22.png)
+![alt text](image-23.png)
