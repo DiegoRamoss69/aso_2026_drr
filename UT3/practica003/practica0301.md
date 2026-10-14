@@ -23,4 +23,23 @@
 
 ## 5. Escribe un script que solicite el nombre de un archivo y luego imprima cuántas líneas tiene ese archivo. Verifica que el archivo exista antes de contar las líneas.
 
-![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+
+## 6. Escribe un script que imprima la tabla de multiplicar de un número introducido por el usuario.
+
+![alt text](image-11.png)
+![alt text](image-12.png)
+
+## 7. Crea un script que solicite el nombre de un archivo y luego informe si el archivo tiene permisos de lectura, escritura y ejecución para el usuario actual.
+
+![alt text](image-13.png)`
+![alt text](image-14.png)
+
+## 8. Escribe un script que copie todos los archivos con una extensión específica desde un directorio de origen a uno de destino.
+
+![alt text](image-15.png)
+![alt text](image-16.png)
+
+## 9. Escribe un script que cuente cuántas palabras hay en un archivo y las muestre en la terminal.
+
