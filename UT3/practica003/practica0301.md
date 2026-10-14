@@ -31,6 +31,11 @@
 ![alt text](image-11.png)
 ![alt text](image-12.png)
 
+## Otra forma (while)
+
+![alt text](imag-17.png)
+![alt text](image-18.png)
+
 ## 7. Crea un script que solicite el nombre de un archivo y luego informe si el archivo tiene permisos de lectura, escritura y ejecución para el usuario actual.
 
 ![alt text](image-13.png)`
