@@ -41,3 +41,18 @@
 
 ![alt text](image-38.png)
 
+## 8. Crea un script que compruebe el espacio libre en disco. Si el espacio es inferior al 10%, muestra un mensaje de advertencia.
+
+
+
+## 9. Escribe un script que muestre un menú con tres opciones. El usuario debe introducir una opción y el script debe ejecutar una acción diferente dependiendo de la opción seleccionada (es suficiente con que muestre un mensaje diferente según la opción escogida)
+
+![alt text](image-39.png)
+
+![alt text](image-40.png)
+
+## 10. Haz un script que solicite al usuario su edad y determine si es menor, adulto o mayor de edad, según un umbral predefinido (por ejemplo, menor de 18, entre 18 y 65, y mayor de 65).
+
+![alt text](image-41.png)
+
+![alt text](image-42.png)
