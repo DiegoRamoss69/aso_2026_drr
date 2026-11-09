@@ -7,7 +7,7 @@ $logCrudo = @"
 
 $lineas = $logCrudo -split "`n"
 
-foreach ($linea in $lineas) {
+$reportes = foreach ($linea in $lineas) {
 
     $partes = $linea -split "::"
 
@@ -42,13 +42,12 @@ foreach ($linea in $lineas) {
             $fecha = "$anio-$mes-$dia $h"
         }
     }
-    $tabla = [PSCustomObject]@{
+    [PSCustomObject]@{
         Fecha   = $fecha
         Nivel   = $nivel
         Usuario = $usuario
         ID      = $ID
         Accion  = $accion
     }
-    $tabla | Export-Csv "reporte_seguridad.csv"
 }
-
+$reportes | Export-Csv "reporte_seguridad.csv" -NoTypeInformation -Encoding UTF8
