@@ -8,10 +8,6 @@ GET /api/v1/user/profile?id=9921&token=xyz [IP: 192.168.10.102] [Agent: Firefox/
 $lineas = $logsWeb -split "`n"
 
 $reportes = foreach ($linea in $lineas) {
-    $fallo = $fallo.split("-")
-    $fallo_aislado = $fallo[1]
-    $fallo_letras = $fallo[0]
-    
     $partes = $linea.split(" ")
     $metodo = $partes[0].Trim()
     $ruta = $partes[1].Trim()
@@ -21,7 +17,7 @@ $reportes = foreach ($linea in $lineas) {
 
     $fallo = $fallo.split("-")
     $fallo_aislado = $fallo[1]
-    $fallo_letras = $fallo[0]
+    $fallo_letras = $fallo[2]
 
     if ($fallo_letras -ne "OK") {
         $ruta = $ruta.split("?").Trim()
