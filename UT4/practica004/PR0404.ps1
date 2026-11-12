@@ -41,13 +41,13 @@ $reportes = foreach ($linea in $lineas) {
             $anio = $f.split("-")[0]
             $fecha = "$anio-$mes-$dia $h"
         }
-    }
-    [PSCustomObject]@{
-        Fecha   = $fecha
-        Nivel   = $nivel
-        Usuario = $usuario
-        ID      = $ID
-        Accion  = $accion
+        [PSCustomObject]@{
+            Fecha   = $fecha
+            Nivel   = $nivel
+            Usuario = $usuario
+            ID      = $ID
+            Accion  = $accion
+        }
     }
 }
 $reportes | Export-Csv "reporte_seguridad.csv" -NoTypeInformation -Encoding UTF8
