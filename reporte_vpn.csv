@@ -1,0 +1,4 @@
+﻿"SessionID","Username","ClientIP","TrafficGB","Status"
+"0045","user:carlos.gomez","192.168.1.50","1,22","CONNECTED"
+"0007","user:ana_martinez","10.0.5.12","0,5","TIMEOUT"
+"0019","user:luis.perez","192.168.10.200","3,32","DISCONNECTED"
